@@ -1,0 +1,25 @@
+[project]
+name = "enronmail-rl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "shashank-100", email = "shashank.telkhade@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.1.1",
+    "pyarrow>=26.0.1",
+]
+
+[project.scripts]
+enronmail-rl = "enronmail_rl:main"
+
+[project.optional-dependencies]
+rl = [
+    "mlx-lm>=0.32.2",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"

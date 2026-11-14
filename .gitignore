@@ -1,0 +1,7 @@
+foundation/
+email-deep-research/
+data/
+runs/
+results/
+.venv/
+__pycache__/

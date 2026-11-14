@@ -1,0 +1,45 @@
+Fetching 7 files:   0%|          | 0/7 [00:00<?, ?it/s]Fetching 7 files: 100%|██████████| 7/7 [00:00<00:00, 4596.86it/s]
+{"label": "before", "n": 60, "A": 0.017, "E": 0.0, "C": 0.0, "R": 0.008, "parse_rate": 0.3, "A_count": 0.0, "A_next_subject": 0.0, "A_reply_date": 0.067, "A_unanswerable": 0.0}
+{"label": "before", "n": 60, "A": 0.017, "E": 0.0, "C": 0.0, "R": 0.008, "parse_rate": 0.3, "A_count": 0.0, "A_next_subject": 0.0, "A_reply_date": 0.067, "A_unanswerable": 0.0}
+{"sft_step": 0, "nll": 0.7799}
+{"sft_step": 1, "nll": 1.2549}
+{"sft_step": 2, "nll": 1.2544}
+{"sft_step": 3, "nll": 1.3356}
+{"sft_step": 4, "nll": 1.3957}
+{"sft_step": 5, "nll": 0.7974}
+{"sft_step": 6, "nll": 0.6745}
+{"sft_step": 7, "nll": 0.3099}
+{"sft_step": 8, "nll": 0.6561}
+{"sft_step": 9, "nll": 0.5561}
+{"sft_step": 10, "nll": 0.4478}
+{"sft_step": 11, "nll": 0.6487}
+{"sft_step": 12, "nll": 0.7553}
+{"sft_step": 13, "nll": 0.3606}
+{"sft_step": 14, "nll": 0.3813}
+{"sft_step": 15, "nll": 0.285}
+{"sft_step": 16, "nll": 0.4507}
+{"sft_step": 17, "nll": 0.6531}
+{"sft_step": 18, "nll": 0.5927}
+{"sft_step": 19, "nll": 0.4391}
+{"sft_step": 20, "nll": 0.4164}
+{"sft_step": 21, "nll": 0.2737}
+{"sft_step": 22, "nll": 0.2418}
+{"sft_step": 23, "nll": 0.5169}
+{"sft_step": 24, "nll": 0.2419}
+{"sft_step": 25, "nll": 0.427}
+{"sft_step": 26, "nll": 0.1567}
+{"sft_step": 27, "nll": 0.9657}
+{"sft_step": 28, "nll": 0.8907}
+{"sft_step": 29, "nll": 0.3514}
+{"sft_step": 30, "nll": 0.1749}
+{"sft_step": 31, "nll": 0.4705}
+{"sft_step": 32, "nll": 0.4282}
+{"sft_step": 33, "nll": 0.4332}
+{"sft_step": 34, "nll": 0.1885}
+{"sft_step": 35, "nll": 0.3821}
+{"sft_step": 36, "nll": 0.3379}
+{"sft_step": 37, "nll": 0.3318}
+{"sft_step": 38, "nll": 0.5805}
+{"sft_step": 39, "nll": 0.2409}
+{"label": "after_sft", "n": 60, "A": 0.383, "E": 0.427, "C": 0.5, "R": 0.42, "parse_rate": 0.817, "A_count": 0.2, "A_next_subject": 0.0, "A_reply_date": 0.333, "A_unanswerable": 1.0}
+{"label": "after_sft", "n": 60, "A": 0.383, "E": 0.427, "C": 0.5, "R": 0.42, "parse_rate": 0.817, "A_count": 0.2, "A_next_subject": 0.0, "A_reply_date": 0.333, "A_unanswerable": 1.0}
