@@ -28,3 +28,113 @@ OK  eval-9     next_subject  R=0.99 E=1.00 C=1.00 turns=2 ans='Hebert Statement 
 OK  eval-13    next_subject  R=0.98 E=1.00 C=1.00 turns=3 ans='IntercontinentalExchange, LLC' gold='IntercontinentalExchange, LLC'
 OK  eval-20    next_subject  R=0.97 E=1.00 C=1.00 turns=4 ans='Followup' gold='Followup'
 OK  eval-30    next_subject  R=0.99 E=1.00 C=1.00 turns=2 ans='Re: ISDA files I am working on' gold='Re: ISDA files I am working on'
+OK  eval-31    next_subject  R=0.96 E=1.00 C=1.00 turns=5 ans='Memorandum from Julie Simon on FERC orde' gold='Memorandum from Julie Simon on'
+OK  eval-38    next_subject  R=0.98 E=1.00 C=1.00 turns=3 ans='ENA Personnel Changes' gold='ENA Personnel Changes'
+OK  eval-43    next_subject  R=0.98 E=1.00 C=1.00 turns=3 ans='RE: EnPower positions' gold='RE: EnPower positions'
+OK  eval-47    next_subject  R=0.99 E=1.00 C=1.00 turns=2 ans='Timesheets' gold='Timesheets'
+OK  eval-50    next_subject  R=0.97 E=1.00 C=1.00 turns=4 ans='RE: Northern v. ONEOK' gold='RE: Northern v. ONEOK'
+OK  eval-52    next_subject  R=0.99 E=1.00 C=1.00 turns=2 ans='TrueQuote.com' gold='TrueQuote.com'
+OK  eval-53    next_subject  R=0.94 E=1.00 C=1.00 turns=7 ans='RE: Budget allocations for COOa' gold='RE: Budget allocations for COO'
+OK  eval-54    next_subject  R=0.97 E=1.00 C=1.00 turns=4 ans='El Paso Model' gold='El Paso Model'
+OK  eval-55    next_subject  R=0.99 E=1.00 C=1.00 turns=2 ans='RE: EOL competitors' gold='RE: EOL competitors'
+BAD eval-58    next_subject  R=0.22 E=0.50 C=0.50 turns=4 ans='(no subject)' gold='Ergonomics Notice'
+OK  eval-60    next_subject  R=0.98 E=1.00 C=1.00 turns=3 ans='Re: Ergonomics Notice' gold='Re: Ergonomics Notice'
+OK  eval-63    next_subject  R=0.99 E=1.00 C=1.00 turns=2 ans='NRG Power Marketing Inc.' gold='NRG Power Marketing Inc.'
+OK  eval-64    next_subject  R=0.99 E=1.00 C=1.00 turns=2 ans='Derivatives Week on the Web' gold='Derivatives Week on the Web'
+OK  eval-65    next_subject  R=0.99 E=1.00 C=1.00 turns=2 ans='Re: Westinghouse letter agreement' gold='Re: Westinghouse letter agreem'
+OK  eval-69    next_subject  R=0.98 E=1.00 C=1.00 turns=3 ans='El Paso Electric Company' gold='El Paso Electric Company'
+OK  eval-73    next_subject  R=0.98 E=1.00 C=1.00 turns=3 ans='Depr./AFUDC Current Estimate' gold='Depr./AFUDC Current Estimate'
+OK  eval-74    next_subject  R=0.99 E=1.00 C=1.00 turns=2 ans='Re: Arizona Public Service Company ("CP"' gold='Re: Arizona Public Service Com'
+OK  eval-81    next_subject  R=0.96 E=1.00 C=1.00 turns=5 ans='CAISO Energy - Brokers  (2)' gold='CAISO Energy - Brokers  (2)'
+OK  eval-83    next_subject  R=0.99 E=1.00 C=1.00 turns=2 ans='CA load growth' gold='CA load growth'
+OK  eval-90    next_subject  R=0.99 E=1.00 C=1.00 turns=2 ans='Re: Organization Announcement' gold='Re: Organization Announcement'
+OK  eval-2     reply_date    R=0.97 E=1.00 C=1.00 turns=4 ans='2001-03-16' gold='2001-03-16'
+OK  eval-5     reply_date    R=0.98 E=1.00 C=1.00 turns=3 ans='2002-02-26' gold='2002-02-26'
+OK  eval-8     reply_date    R=0.99 E=1.00 C=1.00 turns=2 ans='2001-05-02' gold='2001-05-02'
+OK  eval-11    reply_date    R=0.98 E=1.00 C=1.00 turns=3 ans='2001-07-24' gold='2001-07-24'
+OK  eval-14    reply_date    R=0.98 E=1.00 C=1.00 turns=3 ans='2000-10-19' gold='2000-10-19'
+OK  eval-17    reply_date    R=0.98 E=1.00 C=1.00 turns=3 ans='2001-12-02' gold='2001-12-02'
+OK  eval-18    reply_date    R=0.97 E=1.00 C=1.00 turns=4 ans='2000-10-30' gold='2000-10-30'
+OK  eval-22    reply_date    R=0.99 E=1.00 C=1.00 turns=2 ans='2000-08-07' gold='2000-08-07'
+OK  eval-24    reply_date    R=0.97 E=1.00 C=1.00 turns=4 ans='2001-03-21' gold='2001-03-21'
+OK  eval-26    reply_date    R=0.99 E=1.00 C=1.00 turns=2 ans='2002-02-01' gold='2002-02-01'
+OK  eval-29    reply_date    R=0.98 E=1.00 C=1.00 turns=3 ans='2000-12-14' gold='2000-12-14'
+OK  eval-32    reply_date    R=0.98 E=1.00 C=1.00 turns=3 ans='2001-10-30' gold='2001-10-30'
+OK  eval-33    reply_date    R=0.99 E=1.00 C=1.00 turns=2 ans='2001-10-26' gold='2001-10-26'
+OK  eval-37    reply_date    R=0.98 E=1.00 C=1.00 turns=3 ans='2001-11-13' gold='2001-11-13'
+OK  eval-45    reply_date    R=0.99 E=1.00 C=1.00 turns=2 ans='2001-05-01' gold='2001-05-01'
+OK  eval-46    reply_date    R=0.99 E=1.00 C=1.00 turns=2 ans='2001-11-27' gold='2001-11-27'
+OK  eval-61    reply_date    R=0.98 E=1.00 C=1.00 turns=3 ans='2000-12-12' gold='2000-12-12'
+OK  eval-70    reply_date    R=0.98 E=1.00 C=1.00 turns=3 ans='2001-11-02' gold='2001-11-02'
+OK  eval-71    reply_date    R=0.96 E=1.00 C=1.00 turns=5 ans='2001-05-14' gold='2001-05-14'
+OK  eval-77    reply_date    R=0.99 E=1.00 C=1.00 turns=2 ans='2001-11-20' gold='2001-11-20'
+OK  eval-78    reply_date    R=0.88 E=1.00 C=0.67 turns=6 ans='2000-09-25' gold='2000-09-25'
+OK  eval-80    reply_date    R=0.97 E=1.00 C=1.00 turns=4 ans='2001-01-05' gold='2001-01-05'
+OK  eval-88    reply_date    R=0.98 E=1.00 C=1.00 turns=3 ans='2000-12-10' gold='2000-12-10'
+BAD eval-89    reply_date    R=-0.02 E=0.00 C=0.00 turns=3 ans='unknown' gold='2001-01-11'
+OK  eval-95    reply_date    R=0.99 E=1.00 C=1.00 turns=2 ans='2000-10-02' gold='2000-10-02'
+OK  eval-3     unanswerable  R=0.97 E=1.00 C=1.00 turns=4 ans='unknown' gold='unknown'
+OK  eval-4     unanswerable  R=0.97 E=1.00 C=1.00 turns=4 ans='unknown' gold='unknown'
+OK  eval-10    unanswerable  R=0.77 E=1.00 C=0.00 turns=4 ans='unknown' gold='unknown'
+OK  eval-12    unanswerable  R=0.97 E=1.00 C=1.00 turns=4 ans='unknown' gold='unknown'
+OK  eval-15    unanswerable  R=0.97 E=1.00 C=1.00 turns=4 ans='unknown' gold='unknown'
+OK  eval-16    unanswerable  R=0.98 E=1.00 C=1.00 turns=3 ans='unknown' gold='unknown'
+OK  eval-23    unanswerable  R=0.98 E=1.00 C=1.00 turns=3 ans='unknown' gold='unknown'
+OK  eval-25    unanswerable  R=0.95 E=1.00 C=1.00 turns=6 ans='unknown' gold='unknown'
+OK  eval-27    unanswerable  R=0.98 E=1.00 C=1.00 turns=3 ans='unknown' gold='unknown'
+OK  eval-34    unanswerable  R=0.96 E=1.00 C=1.00 turns=5 ans='unknown' gold='unknown'
+OK  eval-39    unanswerable  R=0.98 E=1.00 C=1.00 turns=3 ans='unknown' gold='unknown'
+OK  eval-42    unanswerable  R=0.76 E=1.00 C=0.00 turns=5 ans='unknown' gold='unknown'
+OK  eval-48    unanswerable  R=0.97 E=1.00 C=1.00 turns=4 ans='unknown' gold='unknown'
+OK  eval-49    unanswerable  R=0.97 E=1.00 C=1.00 turns=4 ans='unknown' gold='unknown'
+OK  eval-59    unanswerable  R=0.98 E=1.00 C=1.00 turns=3 ans='unknown' gold='unknown'
+OK  eval-62    unanswerable  R=0.98 E=1.00 C=1.00 turns=3 ans='unknown' gold='unknown'
+OK  eval-66    unanswerable  R=0.75 E=1.00 C=0.00 turns=6 ans='unknown' gold='unknown'
+OK  eval-67    unanswerable  R=0.97 E=1.00 C=1.00 turns=4 ans='unknown' gold='unknown'
+OK  eval-72    unanswerable  R=0.98 E=1.00 C=1.00 turns=3 ans='unknown' gold='unknown'
+OK  eval-76    unanswerable  R=0.97 E=1.00 C=1.00 turns=4 ans='unknown' gold='unknown'
+OK  eval-84    unanswerable  R=0.98 E=1.00 C=1.00 turns=3 ans='unknown' gold='unknown'
+OK  eval-86    unanswerable  R=0.98 E=1.00 C=1.00 turns=3 ans='unknown' gold='unknown'
+OK  eval-87    unanswerable  R=0.77 E=1.00 C=0.00 turns=4 ans='unknown' gold='unknown'
+OK  eval-96    unanswerable  R=0.98 E=1.00 C=1.00 turns=3 ans='unknown' gold='unknown'
+OK  eval-98    unanswerable  R=0.98 E=1.00 C=1.00 turns=3 ans='unknown' gold='unknown'
+{
+ "model": "claude-opus-5-5",
+ "n": 100,
+ "all": {
+  "A": 0.93,
+  "E": 0.973,
+  "C": 0.942,
+  "R": 0.922,
+  "turns": 3.31
+ },
+ "count": {
+  "A": 0.8,
+  "E": 0.95,
+  "C": 1.0,
+  "R": 0.861,
+  "turns": 3.36
+ },
+ "next_subject": {
+  "A": 0.96,
+  "E": 0.98,
+  "C": 0.98,
+  "R": 0.95,
+  "turns": 3.04
+ },
+ "reply_date": {
+  "A": 0.96,
+  "E": 0.96,
+  "C": 0.947,
+  "R": 0.937,
+  "turns": 3.04
+ },
+ "unanswerable": {
+  "A": 1.0,
+  "E": 1.0,
+  "C": 0.84,
+  "R": 0.94,
+  "turns": 3.8
+ },
+ "total_cost_usd": 6.72
+}
