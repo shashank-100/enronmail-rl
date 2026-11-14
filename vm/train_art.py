@@ -123,6 +123,7 @@ async def main():
     ap.add_argument("--eval-n", type=int, default=100)
     ap.add_argument("--eval-every", type=int, default=20)
     ap.add_argument("--fake-client", action="store_true", help="Mac check: scripted model, no GPU, no training")
+    ap.add_argument("--max-hours", type=float, default=0, help="hard budget: stop training with enough time left for the final eval")
     a = ap.parse_args()
     out = ROOT / "results" / f"{a.name}_{time.strftime('%Y%m%d-%H%M')}"
     out.mkdir(parents=True, exist_ok=True)
@@ -166,10 +167,15 @@ async def main():
         raise SystemExit("PREFLIGHT FAILED: the model produced no turns")
     print("PREFLIGHT OK", [round(t.reward, 2) for t in pre], flush=True)
 
+    t_start = time.time()
     await run_eval("base", 0)
+    eval_secs = time.time() - t_start  # the final eval costs about the same as this one
     from art.utils import iterate_dataset
     for batch in iterate_dataset(train, groups_per_step=a.groups_per_step, num_epochs=1, initial_step=await model.get_step()):
         if batch.step >= a.steps:
+            break
+        if a.max_hours and (time.time() - t_start) + 1.5 * eval_secs > a.max_hours * 3600:
+            print(json.dumps({"stopped_early": True, "at_step": batch.step, "reason": "max-hours budget"}), flush=True)
             break
         groups = await art.gather_trajectory_groups(
             (art.TrajectoryGroup(rollout(model, t, client, art) for _ in range(a.rollouts_per_group)) for t in batch.items),
