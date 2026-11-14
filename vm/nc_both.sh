@@ -24,10 +24,12 @@ grep -q "gamelab setup ok" ~/setup_gamelab.log || { echo "GAMELAB SETUP FAILED";
 LEFT_H=$(python3 -c "import time;print(round(max(0.3, $BUDGET_HOURS - (time.time()-$T0)/3600 - 0.15), 2))")
 echo "training budget ${LEFT_H}h per run"
 ( cd ~/enronmail-rl && CUDA_VISIBLE_DEVICES=0 uv run python vm/train_art.py --steps 60 --max-hours "$LEFT_H" > ~/train_enron.log 2>&1 ) &
+ENRON_PID=$!
 ( cd ~/gamelab && CUDA_VISIBLE_DEVICES=1 uv run python vm/train_art.py --steps 60 --max-hours "$LEFT_H" > ~/train_gamelab.log 2>&1 ) &
+GAMELAB_PID=$!
 # hard stop: whatever happens, nothing runs past the budget
 ( sleep "$(python3 -c "print(int(($BUDGET_HOURS*3600) - (__import__('time').time()-$T0) - 300))")"; pkill -f vm/train_art.py ) &
 WATCHDOG=$!
-wait %2 %3 2>/dev/null; kill $WATCHDOG 2>/dev/null
+wait $ENRON_PID $GAMELAB_PID; kill $WATCHDOG 2>/dev/null
 tar czf ~/both_results.tgz -C ~ enronmail-rl/results gamelab/results setup_enron.log setup_gamelab.log train_enron.log train_gamelab.log 2>/dev/null
 echo "DONE: ~/both_results.tgz ($(du -h ~/both_results.tgz | cut -f1)). Copy it off, then release the node."
